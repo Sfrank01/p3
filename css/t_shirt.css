@@ -74,6 +74,33 @@
 #red	{background-color:red;
 	}
 	
+	
+	
+	
+	
+.colors-text{width:20px;
+		height:20px;
+		border:1px dots grey;
+		border-radius:20px;
+		box-shadow: 5px 5px 5px #888888;
+		margin-left:6px;
+		float:left;
+	}
+	
+#white-text{ background-color:white;
+			fontSize: 30px, color: #FF0033;}
+#black-text{fontSize: 30px, color: #FF0033;
+			background-color:black;}
+#red-text{fontSize: 30px, color: #FF0033;
+			background-color:red;}
+	
+#sm{fontSize: 40px;}
+#med{fontSize: 40px;}
+#lrg{fontSize: 40px;}
+
+	
+	
+	
 .logos{
 		width:75px;
 		height:75px;
@@ -97,7 +124,7 @@
 			color:grey;
 			padding:50px;
 			position:relative;
-			}
+			z-index:2;}
 			
 			
 .color-text{
@@ -107,7 +134,8 @@
 		border-radius:20px;
 		box-shadow: 5px 5px 5px #888888;
 		margin-left:6px;
-		float:left;}
+		float:left;
+		}
 		
 		
 

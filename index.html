@@ -19,7 +19,7 @@
 
 <div id='wrapper'>
 			<h1> T-Shirt-Designer</h1>
-<div id= 'designer'>	
+		<div id= 'designer'>	
 			<h2>Pick Style</h2>
 			<div class='style' id='t-shirt'onclick="toShoppingCart(1, 't-shirt', 16.00)"></div>
 			<div class='style' id='girls-shirt'onclick="toShoppingCart(2, 'girl-shirt', 15.00)"></div>
@@ -38,15 +38,12 @@
 			<div class='colors' id='pink' onclick="toShoppingCart(11,  'color-pink', 2.00)"></div>
 			<div class='colors' id='red' onclick="toShoppingCart(12,   'color-red', 2.00)"></div>
 			<br><br>
-			
-			<h3>text</h3>
-			<input type='text' id='shirttext' maxlength='14'>
-	
 		
+		
+		<br>
 			
-		<br><br>
-			<h3>Click a Logo</h3>
-		<div>
+
+		<h3>Click a Logo</h3>
 			<img class='logos' src='images/nuclear.png' onclick="toShoppingCart(13, 'logo-nuke', 4.00)">
 			<img class='logos' src='images/star.png' onclick="toShoppingCart(14, 'logo-star', 4.00)">
 			<img class='logos' src='images/superman.png' onclick="toShoppingCart(15, 'logo-s-man', 4.00)">
@@ -54,8 +51,22 @@
 			<br><br><br>
 			<p> all logos resizabe</p>
 			
+		
+	
+			<h3>text</h3>
+	
+			<input type='text' id='shirttext' maxlength='14'>
+			<br><br>
+			<div class='colors-text' id='white-text'></div>
+			<div class='colors-text' id='black-text'></div>
+			<div class='colors-text' id='red-text'></div>
 			
-		</div>
+			<input type='button' id='sm' value='sm'>
+			<input type='button' id='med' value='med'>
+			<input type='button' id='lrg' value='lrg'>
+					<p> click text color..size.. than drag into place</p>
+				
+	
 			
 	<!-- Recipient -->	
 			
@@ -76,9 +87,11 @@
 				</div>
 				<div id="total"></div>
 				<br>
-				<input type="submit" value="send order" />
+				
+				
+				<input type="submit" value="submit order" />
 				</form>
-</div>			
+	</div>			
 			
 			
 		

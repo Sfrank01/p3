@@ -47,14 +47,59 @@ $('#shirttext').keyup(function() {
 
 });
 
+$(function(){
 
+    $('#white-text').click(function(){
+			
+        $('#shirttext-output').animate({ color: 'white' }, 'fast');
 
+   });		
+	
+	$('#black-text').click(function(){
+			
+        $('#shirttext-output').animate({ color: 'black' }, 'fast');
 
-jQuery(document).ready( function() {
-jQuery( "#shirttext-output" ).textresizer({
-target: "#shirttext-output"
+   });		
+   
+   $('#red-text').click(function(){
+			
+        $('#shirttext-output').animate({ color: 'red' }, 'fast');
+
+   });		
+	
+	
+	$('#sm').click(function(){
+			
+        $('#shirttext-output').animate({ fontSize: '30px' }, 'fast');
+
+   });		
+   
+   $('#med').click(function(){
+			
+        $('#shirttext-output').animate({ fontSize: '50px' }, 'fast');
+
+   });		
+   
+   $('#lrg').click(function(){
+			
+        $('#shirttext-output').animate({ fontSize: '70px' }, 'fast');
+
+   });		
+	
 });
-});
+
+
+	
+
+//$(function(){
+
+    //$('#white-text').click(function(){
+			
+        //$('#shirttext-output').animate({  fontSize: '90px', color: 'white' }, 'fast');
+
+   //});		
+	
+//});
 
 
 
