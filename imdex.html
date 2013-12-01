@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+<html>
+<head>
+
+	<title>T-Shirt-Builder</title>
+	
+	<link rel="stylesheet" href="css/t_shirt.css" type="text/css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	<script src="jquery.js" type="text/javascript"></script>
+	<script src="jquery.cookie.js" type="text/javascript"></script>
+	<script src="jquery.textresizer.js" type="text/javascript"></script>
+	
+</head>
+
+
+<body>
+
+<div id='wrapper'>
+			<h1> T-Shirt-Designer</h1>
+<div id= 'designer'>	
+			<h2>Pick Style</h2>
+			<div class='style' id='t-shirt'onclick="toShoppingCart(1, 't-shirt', 16.00)"></div>
+			<div class='style' id='girls-shirt'onclick="toShoppingCart(2, 'girl-shirt', 15.00)"></div>
+			<div class='style' id='long-arm'onclick="toShoppingCart(3, 'long-arm', 21.00)"></div>
+			<div class='style' id='Jacket'onclick="toShoppingCart(4, 'jacket', 31.00)"></div>
+			<br><br><br><br><br><br>
+
+	
+			<h3>Pick Color</h3>
+			<div class='colors' id='white' onclick="toShoppingCart(5, 'color-white', 1.00)"></div>
+			<div class='colors' id='black' onclick="toShoppingCart(6, 'color-black', 3.00)"></div>
+			<div class='colors' id='blue' onclick="toShoppingCart(7,  'color-blue', 2.00)"></div>
+			<div class='colors' id='green' onclick="toShoppingCart(8, 'color-green', 2.00)"></div>
+			<div class='colors' id='yellow' onclick="toShoppingCart(9,'color-yellow', 2.00)"></div>
+			<div class='colors' id='orange' onclick="toShoppingCart(10,'color-orange', 2.00)"></div>
+			<div class='colors' id='pink' onclick="toShoppingCart(11,  'color-pink', 2.00)"></div>
+			<div class='colors' id='red' onclick="toShoppingCart(12,   'color-red', 2.00)"></div>
+			<br><br>
+			
+			<h3>text</h3>
+			<input type='text' id='shirttext' maxlength='14'>
+	
+		
+			
+		<br><br>
+			<h3>Click a Logo</h3>
+		<div>
+			<img class='logos' src='images/nuclear.png' onclick="toShoppingCart(13, 'logo-nuke', 4.00)">
+			<img class='logos' src='images/star.png' onclick="toShoppingCart(14, 'logo-star', 4.00)">
+			<img class='logos' src='images/superman.png' onclick="toShoppingCart(15, 'logo-s-man', 4.00)">
+			<img class='logos' src='images/exoticbloom.png' onclick="toShoppingCart(16, 'bloom', 4.00)">
+			<br><br><br>
+			<p> all logos resizabe</p>
+			
+			
+		</div>
+			
+	<!-- Recipient -->	
+			
+			
+			
+		<br>	
+	<div id="bottomright">
+				<!--<h2> Shop Now!</h2>
+					Check-out all the other products we have to<br> accompany
+					your new DermaScrub.
+				</div>-->
+				<form id="cart" method="post" action="#">
+				<h3>your e-mail </h3>
+				<input type="text" name="mail" />
+				<br>
+				<div id="cart_inner">
+				
+				</div>
+				<div id="total"></div>
+				<br>
+				<input type="submit" value="send order" />
+				</form>
+</div>			
+			
+			
+		
+</div>		
+			
+	<div id='preview'>
+	
+		<div id='card-background'>
+			<div id='canvas'>
+			
+				<div id='shirttext-output'></div>
+			</div>
+	    </div>
+	    
+	<br>
+		<!-- Buttons -->
+		<input type='button' id='refresh-btn' value='Start over'>
+		<input type='button' id='print-btn' value='Print'>
+   </div>
+   
+   <br>  <br>
+   
+ 
+
+<script src="js/t-shirt-builder.js"></script>
+	
+</body>
+
+</html>

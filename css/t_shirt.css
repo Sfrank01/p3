@@ -1,0 +1,137 @@
+	
+#wrapper{
+		width: 980px;
+		height:980px;
+		margin: 0px auto;
+		background-color:;
+		}	
+		
+#designer{
+		 width: 450px;
+		 margin-right:40px;
+		 float:left;
+		}	
+.style{
+		width:95px;
+		height:110px;
+		border:1px solid white;
+		margin-left:8px;
+		float:left;
+		background: contain;}
+		
+#t-shirt	{background-image:url('../images/t-shirt.png');
+			background-size: cover;
+			
+	} 
+	
+#girls-shirt	{background-image:url('../images/girls-shirt.png');
+				background-size: cover;
+	}
+	
+#long-arm	{background-image:url('../images/long-arm.png');
+			background-size: cover;
+	}
+	
+#Jacket	{background-image:url('../images/Jacket.png');
+			background-size: cover;
+	}		
+		
+
+.colors{
+		width:30px;
+		height:30px;
+		border:1px dots grey;
+		border-radius:20px;
+		box-shadow: 5px 5px 5px #888888;
+		margin-left:6px;
+		float:left;}
+
+		
+#white	{background-color:white;
+	}
+
+#black	{background-color:black;
+	}
+
+#orange	{background-color:orange;
+	}
+	
+#yellow	{background-color:yellow;
+	}
+		
+#green	{background-color:green;
+	}
+	
+#blue	{background-color:blue;
+	}
+	
+#aqua	{background-color:aqua;
+	}
+		
+#pink	{background-color:pink;
+	}
+	
+#red	{background-color:red;
+	}
+	
+.logos{
+		width:75px;
+		height:75px;
+	
+		border:;
+		margin-left:6px;
+		float:left;
+		z-index:2;
+		}
+
+.logos_on_shirt{
+		
+		padding:70px;
+		width:190px;
+		height:190px;
+	
+		position:absolute !important;
+		}
+#shirttext-output{
+			font-size:40px;
+			color:grey;
+			padding:50px;
+			position:relative;
+			}
+			
+			
+.color-text{
+		width:20px;
+		height:20px;
+		border:1px dots grey;
+		border-radius:20px;
+		box-shadow: 5px 5px 5px #888888;
+		margin-left:6px;
+		float:left;}
+		
+		
+
+
+#white	{background-color:white;
+	}
+
+#black-	{background-color:black;
+	}
+
+#red	{background-color:red;
+	}			
+		
+#canvas {
+		border:1px dotted grey;
+		border-radius:25px;
+		box-shadow: 10px 10px 10px #888888;
+		margin-top:40px;
+		width: 400px;
+		height: 500px;
+		}	
+		
+#preview{
+		width: 400px;
+		float: left;
+		}		
+		
