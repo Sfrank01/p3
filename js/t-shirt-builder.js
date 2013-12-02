@@ -30,7 +30,7 @@ $('.logos').click(function() {
 	$('#canvas').prepend(new_image);
 	$('.logos_on_shirt').resizable().draggable();
 
-	//$('.logos_on_shirt').resizable({animate:true, handles:'n,s,e,w,ne,se,nw,sw'}).parent().draggable({containment: "#canvas"});
+
 									
 
 });
@@ -46,7 +46,8 @@ $('#shirttext').keyup(function() {
 	$('#shirttext-output').html(value).draggable();
 
 });
-
+ 
+		// changes text color and size
 $(function(){
 
     $('#white-text').click(function(){
@@ -89,18 +90,6 @@ $(function(){
 });
 
 
-	
-
-//$(function(){
-
-    //$('#white-text').click(function(){
-			
-        //$('#shirttext-output').animate({  fontSize: '90px', color: 'white' }, 'fast');
-
-   //});		
-	
-//});
-
 
 
 
@@ -126,7 +115,7 @@ function toShoppingCart(no, descr, prize)
 	else
 	{
 		var html = '<div id="product_'+no+'"><input type="text" class="amount" name="prod_'+no+'" rel="'+prize+'" id="amount_'+no+'" value="1" />  '+
-		descr + ' (' + prize + ' €)' +
+		descr + ' (' + prize + ' $)' +
 		' <button type="button" onclick="killProduct('+no+')">x</button></div>';
 		document.getElementById('cart_inner').innerHTML += html;
 	}
@@ -146,7 +135,7 @@ function checkTotal()
 		var prize = parseFloat(inputs[i].getAttribute('rel'));
 		total = total + (amount * prize)
 	}
-	document.getElementById('total').innerHTML = total + ' €';
+	document.getElementById('total').innerHTML = total + ' $';
 	window.setTimeout(checkTotal, 1000);
 }
 

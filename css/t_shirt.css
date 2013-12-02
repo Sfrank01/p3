@@ -1,4 +1,37 @@
+body{background-color:;
+	background-image:url('../images/brown-paper.png');
 	
+	}
+
+
+
+	h1{font-size:40px;
+		font-family:"Century Gothic";
+		}
+	h2{font-size:30px;
+		font-family:"Century Gothic";
+		color:black;}
+		
+	h3{font-size:15px;
+		font-family:"Century Gothic";
+		color:black;}
+		
+	p{font-size:13px;
+		font-family:"Century Gothic";
+		font-style:italic;
+		color:black;}
+
+input[type="text"]{background-color:#eed393;
+				 border:1px solid black;
+				 border-radius:10px;
+				
+				 }	
+				 
+input[type="button"]{background-color:#f0d99e;
+				 border:1px solid black;
+				 border-radius:10px;
+				 box-shadow: 5px 5px 5px #826838;}					 
+		
 #wrapper{
 		width: 980px;
 		height:980px;
@@ -17,7 +50,8 @@
 		border:1px solid white;
 		margin-left:8px;
 		float:left;
-		background: contain;}
+		background: contain;
+		box-shadow: 15px 15px 15px #826838;}
 		
 #t-shirt	{background-image:url('../images/t-shirt.png');
 			background-size: cover;
@@ -42,7 +76,7 @@
 		height:30px;
 		border:1px dots grey;
 		border-radius:20px;
-		box-shadow: 5px 5px 5px #888888;
+		box-shadow: 5px 5px 5px #826838;
 		margin-left:6px;
 		float:left;}
 
@@ -82,7 +116,7 @@
 		height:20px;
 		border:1px dots grey;
 		border-radius:20px;
-		box-shadow: 5px 5px 5px #888888;
+		box-shadow: 5px 5px 5px #826838;
 		margin-left:6px;
 		float:left;
 	}
@@ -102,9 +136,9 @@
 	
 	
 .logos{
-		width:75px;
-		height:75px;
-	
+		width:70px;
+		height:70px;
+		
 		border:;
 		margin-left:6px;
 		float:left;
@@ -132,7 +166,7 @@
 		height:20px;
 		border:1px dots grey;
 		border-radius:20px;
-		box-shadow: 5px 5px 5px #888888;
+		box-shadow: 5px 5px 5px #826838;
 		margin-left:6px;
 		float:left;
 		}
@@ -149,10 +183,11 @@
 #red	{background-color:red;
 	}			
 		
-#canvas {
+#canvas {background-color:white;
 		border:1px dotted grey;
 		border-radius:25px;
-		box-shadow: 10px 10px 10px #888888;
+		box-shadow: 10px 10px 10px #826838;
+		
 		margin-top:40px;
 		width: 400px;
 		height: 500px;
